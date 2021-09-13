@@ -25,10 +25,10 @@
       <div class="my-5 row">
         <div class="m-auto col-md-4">
           <div class="input-group input">
-            <input type="text" class="form-control" id="input-field" placeholder="Search for...">
+            <input type="text" onkeyup="searchProducts()" class="form-control" id="input-field"
+              placeholder="Search products...">
             <span class="input-group-btn">
-              <button class="btn btn-success button" type="button" id="search-btn"
-                onclick="loadProducts()">Search</button>
+              <button class="btn btn-success button" type="button" id="search-btn">Search</button>
             </span>
           </div>
         </div>
