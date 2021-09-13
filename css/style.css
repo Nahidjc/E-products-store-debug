@@ -103,3 +103,31 @@ body {
 .rating {
   color: rgb(253, 155, 8);
 }
+
+#addToCart-btn {
+  padding: 26 22px;
+  min-width: 165px;
+
+  background-color: #ff8219;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+#details-btn {
+  padding: 26 22px;
+  min-width: 120px;
+
+  background-color: #f73c22;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+.search-portion {
+  margin: auto;
+}
+
+main {
+  margin-top: 50px;
+}
